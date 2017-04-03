@@ -1,0 +1,51 @@
+table {
+  width: 80%;
+  margin: auto;
+}
+
+caption {
+  font-size: 2em;
+  font-family: Arial;
+  padding: 10px;
+}
+
+th, td {
+  text-align: center;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+tbody tr:nth-child(even){
+  background-color: lightgrey;
+}
+
+tbody tr:nth-child(odd){
+  background-color: whitesmoke;
+}
+
+thead tr, tfoot tr{
+  background-color: lightskyblue;
+}
+
+tbody tr:nth-child(6), tbody tr:nth-last-child(2){
+  background-color: lightsalmon;
+}
+
+tr:nth-child(even):hover, tr:nth-child(odd):hover{
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  transition: 0.3s;
+}
+
+tr {
+  transition: 0.3s;
+}
+
+a:link{
+  color: red;
+}
+
+a:visited{
+  color: green;
+}

@@ -1,0 +1,13 @@
+.container {
+  height: 500px;
+  border: 2px solid lightgrey;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-around;
+}
+
+.item {
+  width: 220px;
+  background-color: lightblue;
+  margin: 5px;
+}
